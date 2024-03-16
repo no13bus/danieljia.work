@@ -17,6 +17,10 @@ title: "About"
 
 不过目前工作上后端用Python, 前端的话就是用Swift。业余项目的话，Swift和Kotlin+Compose都用。
 
+## 受访/演讲
+
+- [硬地骇客的采访](https://www.xiaoyuzhoufm.com/episode/6576f72f6d7f010fe03e8f5f)。零基础转行程序员, 玩滑板的设计师, 不小心就在瑞典找到了工作，对话诗片作者。
+
 ## 一些生活态度
 
 - 人要做自己喜欢的事情。
