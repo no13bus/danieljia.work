@@ -25,6 +25,7 @@ const {
   pubDatetime,
   modDatetime,
   scrollSmooth = false,
+  twitterAccount = SITE.twitterAccount,
 } = Astro.props;
 
 const socialImageURL = new URL(
@@ -81,14 +82,19 @@ const socialImageURL = new URL(
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonicalURL} />
-    <meta property="og:image" content={ogImage} />
+    <meta property="og:image" content={socialImageURL} />
+    <meta property="og:locale" content="zh" />
+    <meta property="og:site_name" content="danieljia-work.pages.dev" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content={canonicalURL} />
+    <meta name="twitter:site" content=`@${twitterAccount}` />
+    <meta name="twitter:creator" content=`@${twitterAccount}` />
+
+    <!-- <meta property="twitter:url" content={canonicalURL} />
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
-    <meta property="twitter:image" content={socialImageURL} />
+    <meta property="twitter:image" content={socialImageURL} /> -->
 
     <!-- Google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

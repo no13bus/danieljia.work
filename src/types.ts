@@ -9,6 +9,7 @@ export type Site = {
   lightAndDarkMode: boolean;
   postPerPage: number;
   scheduledPostMargin: number;
+  twitterAccount?: string;
 };
 
 export type SocialObjects = {

@@ -9,6 +9,7 @@ export const SITE: Site = {
   lightAndDarkMode: true,
   postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
+  twitterAccount: "no13bus",
 };
 
 export const LOCALE = {
