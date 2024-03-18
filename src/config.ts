@@ -1,11 +1,11 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://danieljia-work.pages.dev/", // replace this with your deployed domain
+  website: "https://danieljia.com/", // replace this with your deployed domain
   author: "DanielJia",
-  desc: "我写字的地方",
+  desc: "DanielJia的博客, 关于iOS, SwiftUI, 个人开发作品，摄影",
   title: "DanielJia",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "blog-og.png",
   lightAndDarkMode: true,
   postPerPage: 10,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
