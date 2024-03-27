@@ -11,7 +11,6 @@ import linkPreview from "astro-link-preview";
 export default defineConfig({
   site: SITE.website,
   integrations: [
-    linkPreview(),
     tailwind({
       applyBaseStyles: false,
     }),
